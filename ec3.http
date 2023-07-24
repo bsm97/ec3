@@ -23,7 +23,7 @@
 # Deben desplegar su aplicación en render
 # Al finalizar el examen entregarlo en el siguiente link: https://forms.office.com/r/fdytLW5PHe
 
-@server = http://localhost:8080
+@server = https://eva3-buhd.onrender.com
 @api = {{server}}/api/ec3
 
 ################ Categorias: ################
@@ -43,6 +43,6 @@ Content-Type: application/json
 
 {"nombre": "Piano", "categoria": "http://localhost:8080/api/ec3/categorias/52"}
 ###
-GET {{api}}/instrumentos/102/categoria
+GET {{api}}/instrumentos/253/categoria
 ###
 GET {{api}}/instrumentos?sort=nombre,desc
